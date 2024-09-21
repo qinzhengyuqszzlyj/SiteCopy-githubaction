@@ -31,7 +31,7 @@ jobs:
     - name: Run Python script  v
       shell: bash  
       run: |  
-        python sitecopy.py -u "https://www.freedidi.com/" -e -d 10 -t 10 
+        python sitecopy.py -u "https://www.freedidi.com/" -e -d 3 -t 10 
   
     # 打包文件  
     - name: Zip files  
